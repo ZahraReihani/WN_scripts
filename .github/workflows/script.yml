@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: script
 
 # Controls when the workflow will run
 on:
@@ -27,4 +27,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a Python script
-        run: Python .github/workflows/WN_producer.py
+        run: Python .github/workflows/WN_produce.py
