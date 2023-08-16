@@ -3,8 +3,13 @@ import io
 import openpyxl
 current_date = datetime.date.today()
 formatted_date = current_date.strftime("%d/%m/%Y")
+<<<<<<< HEAD
 #header_file = "../../src/user/error/usr_errorId_t.h"
 header_file = "usr_errorId_t.h"
+=======
+header_file = "../../src/user/error/usr_errorId_t.h"
+#header_file = "usr_errorId_t.h"
+>>>>>>> 870eb2a39e2c80dc8d15bb9252485afe92dd816d
 output_file = "BMS_Error_Codes_WN"
 E = "Error Code of WACKER_NEUSON"
 H = "            DECLARE_ERROR_ID("
